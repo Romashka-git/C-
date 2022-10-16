@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Сумма двух чисел
+
+
+Console.WriteLine("Введите два целых числа для суммирования: ");
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = a + b;
+Console.Write("Сумма чисел равна ");
+Console.WriteLine(c);
