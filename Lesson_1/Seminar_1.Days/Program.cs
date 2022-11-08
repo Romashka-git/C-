@@ -40,7 +40,7 @@ if (answer == 7)
 {
     Console.WriteLine(sunday);
 }
-else
+if (answer < 1 || answer > 7)
 {
     Console.WriteLine("Такого дня недели нет.");
 }
