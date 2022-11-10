@@ -7,8 +7,9 @@ int n = int.Parse(Console.ReadLine());
 
 int count = -n;
 
-while (count < n + 1)
+while (count < n)
 {
-    Console.Write(count + " ");
+    Console.Write(count + ", ");
     count++;
 }
+System.Console.WriteLine(count);
